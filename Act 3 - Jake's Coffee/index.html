@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake's Coffee</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="icon" href="logo2.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">Ja<span>ke's</span></a>
+            <div class="links" id="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h1>Make your mornings brighter <br>with a<span> cup of coffee</span></h1>
+            <a href="#menu"><button class="btn" id="btn">Order Now</button></a>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+            </div>
+            <div class="about-content">
+                <h1>About Us</h1>
+                <h3>Hello <span>Customer</span></h3>
+                <p>Jake's Coffee Shop Hours: Mon-Sat/9:00 am - 10:00 pm <br>Located at 17 West Diamond Street, Brgy. Cape Quezon City
+                    <br>If 5 or more people, please contact our telephone number(567-634-9985) for reservation before coming.
+                    <br>Take note: We strictly require wearing of face mask, a vaccination card and a valid ID
+                </p>
+                <br>
+                <p>Have a brew-<span>tiful day</span></p>
+                <a href="#contact"><button class="btn" style="color: black;">Contact Us Now</button></a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>
+        <div class="container">
+            <div class="post">
+                <div class="menu-img">
+                    <img src="latte.jpg" alt="">
+                    <span>130 <br> php </span>
+                </div>
+                <div class="menu-content">
+                    <h3>Jake's |<span> Latte</span></h3>
+                    <h1>"Every latte thing is gonna bean alright"</h1>
+                    <p>Get a taste of greatness with our best seller</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="menu-img">
+                    <img src="espresso.jpg" alt="">
+                    <span>180 <br> php </span>
+                </div>
+                <div class="menu-content">
+                    <h3>Jake's |<span> Espresso</span></h3>
+                    <h1>"When you feel depresso, have a little espresso"</h1>
+                    <p>A homemade espresso, from imported finely ground coffee beans</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="menu-img">
+                    <img src="icedcoffee.jpg" alt="">
+                    <span>100 <br> php </span>
+                </div>
+                <div class="menu-content">
+                    <h3>Jake's |<span> Iced Coffee</span></h3>
+                    <h1>Tasty and refresing iced coffee</h1>
+                    <p>This iced coffee, will surely cool your whole body</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <p class="heading-description">Shop Hours: Mon-Sat/9:00 am - 10:00 pm</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>Send email anytime</span></h2>
+                </div>
+                <div>
+                    <p>carcillarmax@gmail.com</p>
+
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Address <br> <span>Find Us</span></h2>
+                </div>
+                <div>
+                    <p>17 West Diamond Street, Brgy. Cape Quezon City</p>
+
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call Us <br> <span>Call us now!</span></h2>
+                </div>
+                <div>
+                    <p>567-634-9985</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="footer-box">
+                <h3>Jake's Coffee </h3>
+                <p>17 West Diamond Street, Brgy. Cape Quezon City</p>
+                <p>All rights reserved By <br><span>Carcillar, Maxene Monina P.</span></p>
+
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <p>For inquiries and updates</p>
+                <div>
+                    <a href="https://www.facebook.com/mxcrcllr/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://mail.google.com/mail/u/1/#inbox?compose=DmwnWrRqgkNhlMwrQfDVxbbhcJpdfrKWRnWFFxftbDnPdhVvpLTsWhVkjlZqHPVLRwRvlvVnHGwG"><i class="fa-regular fa-envelope"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
